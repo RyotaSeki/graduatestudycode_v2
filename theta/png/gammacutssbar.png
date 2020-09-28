@@ -1,0 +1,76 @@
+{
+//========= Macro generated from object: h_ssbar/
+//========= by ROOT version6.10/08
+   
+   TH1F *h_ssbar__1 = new TH1F("h_ssbar__1","",50,0,1);
+   h_ssbar__1->SetBinContent(1,7.154e+06);
+   h_ssbar__1->SetBinContent(2,3.577e+06);
+   h_ssbar__1->SetBinContent(3,3.577e+06);
+   h_ssbar__1->SetBinContent(4,3.5602e+06);
+   h_ssbar__1->SetBinContent(6,3.34908e+06);
+   h_ssbar__1->SetBinContent(7,3.06494e+06);
+   h_ssbar__1->SetBinContent(8,5.0734e+06);
+   h_ssbar__1->SetBinContent(9,2.10753e+06);
+   h_ssbar__1->SetBinContent(10,1.89113e+06);
+   h_ssbar__1->SetBinContent(11,1.70836e+06);
+   h_ssbar__1->SetBinContent(12,1.54726e+06);
+   h_ssbar__1->SetBinContent(13,1.40881e+06);
+   h_ssbar__1->SetBinContent(15,1.28755e+06);
+   h_ssbar__1->SetBinContent(16,1.17998e+06);
+   h_ssbar__1->SetBinContent(17,1.08614e+06);
+   h_ssbar__1->SetBinContent(18,1.00275e+06);
+   h_ssbar__1->SetBinContent(19,927701);
+   h_ssbar__1->SetBinContent(20,860538);
+   h_ssbar__1->SetBinContent(21,800031);
+   h_ssbar__1->SetBinContent(22,744653);
+   h_ssbar__1->SetBinContent(23,695091);
+   h_ssbar__1->SetBinContent(24,649595);
+   h_ssbar__1->SetBinContent(25,607203);
+   h_ssbar__1->SetBinContent(26,569211);
+   h_ssbar__1->SetBinContent(27,533912);
+   h_ssbar__1->SetBinContent(28,500917);
+   h_ssbar__1->SetBinContent(29,470941);
+   h_ssbar__1->SetBinContent(30,442934);
+   h_ssbar__1->SetBinContent(31,417100);
+   h_ssbar__1->SetBinContent(32,763236);
+   h_ssbar__1->SetBinContent(33,349707);
+   h_ssbar__1->SetBinContent(34,330031);
+   h_ssbar__1->SetBinContent(35,312020);
+   h_ssbar__1->SetBinContent(36,295107);
+   h_ssbar__1->SetBinContent(37,278682);
+   h_ssbar__1->SetBinContent(38,263563);
+   h_ssbar__1->SetBinContent(39,249219);
+   h_ssbar__1->SetBinContent(40,235989);
+   h_ssbar__1->SetBinContent(41,223213);
+   h_ssbar__1->SetBinContent(42,211433);
+   h_ssbar__1->SetBinContent(43,199873);
+   h_ssbar__1->SetBinContent(44,189526);
+   h_ssbar__1->SetBinContent(45,179675);
+   h_ssbar__1->SetBinContent(46,170478);
+   h_ssbar__1->SetBinContent(47,161769);
+   h_ssbar__1->SetBinContent(48,153769);
+   h_ssbar__1->SetBinContent(49,145864);
+   h_ssbar__1->SetBinContent(50,138478);
+   h_ssbar__1->SetEntries(5.56466e+07);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   h_ssbar__1->SetLineColor(ci);
+   h_ssbar__1->GetXaxis()->SetTitle("gamma E cut ");
+   h_ssbar__1->GetXaxis()->SetLabelFont(42);
+   h_ssbar__1->GetXaxis()->SetLabelSize(0.035);
+   h_ssbar__1->GetXaxis()->SetTitleSize(0.035);
+   h_ssbar__1->GetXaxis()->SetTitleFont(42);
+   h_ssbar__1->GetYaxis()->SetTitle("combination of charged particle and photon");
+   h_ssbar__1->GetYaxis()->SetLabelFont(42);
+   h_ssbar__1->GetYaxis()->SetLabelSize(0.035);
+   h_ssbar__1->GetYaxis()->SetTitleSize(0.035);
+   h_ssbar__1->GetYaxis()->SetTitleOffset(0);
+   h_ssbar__1->GetYaxis()->SetTitleFont(42);
+   h_ssbar__1->GetZaxis()->SetLabelFont(42);
+   h_ssbar__1->GetZaxis()->SetLabelSize(0.035);
+   h_ssbar__1->GetZaxis()->SetTitleSize(0.035);
+   h_ssbar__1->GetZaxis()->SetTitleFont(42);
+   h_ssbar__1->Draw("");
+}
